@@ -1,2 +1,33 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
-/* Your CSS Code here. */
+.container {
+  text-align: center;
+}
+
+.moviePic {
+  width: 300px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  opacity: 0.9; /* Adjust opacity for effect */
+}
+
+.movieDetail {
+  position: relative;
+  top: -50px; /* Adjust position as needed */
+  width: 70%; /* Adjust width as needed */
+  margin: 0 auto; /* Center horizontally */
+  text-align: justify;
+  font-size: 18px; /* Adjust font size as needed */
+  background-color: white; /* Optional background color */
+  padding: 20px; /* Optional padding for better readability */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional box shadow */
+  border-radius: 10px; /* Optional border radius */
+}
